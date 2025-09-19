@@ -34,9 +34,6 @@ smart-doc-checker/
 ├── requirements.txt # Project dependencies
 └── venv/ # Virtual environment (not committed)
 
-markdown
-Copy code
-
 ---
 
 ## 🛠️ Tech Stack
@@ -66,20 +63,14 @@ Copy code
    cd smart-doc-checker
 Create and activate a virtual environment:
 
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Set up your Gemini API Key:
 
-bash
-Copy code
 export GEMINI_API_KEY="your_api_key_here"   # macOS/Linux
 set GEMINI_API_KEY=your_api_key_here        # Windows
 ▶️ Usage
@@ -119,9 +110,6 @@ Policy Monitor → Simulates rule/policy updates.
 
 📜 Example Report
 TXT / DOCX Output:
-
-markdown
-Copy code
 Smart Doc Checker Report
 ==============================
 
@@ -135,9 +123,11 @@ SUGGESTIONS:
 - Clarify the policy on meals & swag.
 - Resolve ambiguity in the venue.
 📸 Screenshots
-Upload & Results
-
-Conflict Distribution
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1ebddf95-ab92-41a8-8621-7758a33d0dbb" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/88bcfcda-de55-41ff-b599-fad689fc8d95" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/48a44e0f-1e58-479b-9c79-dad4e896ec0c" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/51be60cf-d1cc-4029-a3fd-2748dcf1790a" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/86617d58-da3a-4a15-a278-5f0fd1ef81bd" />
 
 💰 Billing Logic (Flexprice)
 Per Document analyzed → increments doc usage counter
