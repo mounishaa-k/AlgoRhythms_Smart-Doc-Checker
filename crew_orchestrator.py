@@ -2,7 +2,7 @@ import google.generativeai as genai
 import json
 from billing import charge_flexprice
 
-API_KEY = "AIzaSyA7IJ8YGjy4zsojZ_5ZxHeuT6KLLkYXBTU"
+API_KEY = "give ur api key"
 genai.configure(api_key=API_KEY)
 
 class SmartDocChecker:
